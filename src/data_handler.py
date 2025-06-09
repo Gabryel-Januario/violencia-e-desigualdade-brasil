@@ -1,10 +1,11 @@
+import pandas as pd
+
 class Data_handler:
     def __init__(self, file_path):
         self.file_path = file_path
         self.df = None
 
     def load_csv(self, sep=';', encoding='latin1', skiprows=0):
-        import pandas as pd
         self.df = pd.read_csv(self.file_path, sep=sep, encoding=encoding, skiprows=skiprows) 
         return self.df
     
@@ -24,4 +25,6 @@ class Data_handler:
         value_name="Gini"
         )
         return df_long
+
+    
         
