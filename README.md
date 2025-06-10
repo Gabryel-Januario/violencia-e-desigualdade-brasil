@@ -44,7 +44,7 @@ Este projeto tem como objetivo explorar e analisar a relação entre o **Índice
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/projeto-violencia-desigualdade.git
+   git clone https://github.com/Gabryel-Januario/violencia-e-desigualdade-brasil
    cd projeto-violencia-desigualdade
    ```
 
