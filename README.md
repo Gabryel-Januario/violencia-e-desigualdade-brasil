@@ -11,17 +11,7 @@ Este projeto tem como objetivo explorar e analisar a relação entre o **Índice
 - Verificar se existe uma **correlação estatística** entre desigualdade e violência.
 - Visualizar essas relações com gráficos informativos e mapas de calor.
 - Auxiliar na reflexão sobre políticas públicas baseadas em dados.
-
----
-
-## 🔍 Tecnologias Utilizadas
-
-- **Python 3.10+**
-- **Pandas**
-- **Seaborn / Matplotlib**
-- **NumPy**
-- **Jupyter Notebook**
-
+  
 ---
 
 ## 📊 Exemplos de Visualizações
@@ -33,6 +23,16 @@ Este projeto tem como objetivo explorar e analisar a relação entre o **Índice
 | Gini x Tempo por Estado | Heatmap Correlação |
 |-------------------------|--------------------|
 | ![Gini x Mv](https://github.com/user-attachments/assets/1a63bfb1-b7a2-42f8-b89c-34bd58833679) | ![correlação](https://github.com/user-attachments/assets/a4a1682e-5d42-40dc-a921-274654fdee41) |
+
+---
+
+## 🔍 Tecnologias Utilizadas
+
+- **Python 3.10+**
+- **Pandas**
+- **Seaborn / Matplotlib**
+- **NumPy**
+- **Jupyter Notebook**
 
 ---
 
