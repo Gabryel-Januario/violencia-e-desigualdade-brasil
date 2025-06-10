@@ -46,10 +46,37 @@ Este projeto tem como objetivo explorar e analisar a relação entre o **Índice
    ```bash
    git clone https://github.com/seu-usuario/projeto-violencia-desigualdade.git
    cd projeto-violencia-desigualdade
+   ```
 
-   Instale as dependências:
+2. Instale as dependências:
+   ```bash
    pip install -r requirements.txt
+   ```
 
-   Execute os notebooks ou o script principal:
+3. Execute os notebooks ou o script principal:
+   ```bash
    python main.py
+    ```
 
+---
+
+<h2 id="colab">🤝 Colaborador</h2>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/161720296?s=96&v=4" width="100px;" alt="Gabryel Januario Profile Picture"/><br>
+        <sub>
+          <b>Gabryel Januario</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+<h2 id="contribute">📫 Contribuições</h2>
+
+Sinta-se à vontade para abrir issues e pull requests para melhorias!
