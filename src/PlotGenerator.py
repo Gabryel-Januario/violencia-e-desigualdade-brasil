@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import seaborn as sns
 from matplotlib.ticker import FuncFormatter
 
 class PlotGenerator:
@@ -61,4 +62,30 @@ class PlotGenerator:
         plt.title(f'Evolução do Gini e Valor de mortes violentas em {UF}')
         plt.tight_layout()
         plt.grid(True)
+        plt.show()
+
+    def plot_correlation_heatmap(self, states):
+        
+        if isinstance(states, str):
+            states = [states]
+
+        df_filtered = self.df[self.df["UF"].isin(states)]
+
+        corr_data = []
+
+        for uf in states:
+            df_uf = df_filtered[df_filtered["UF"] == uf][["ano", "Gini", "valor"]].dropna()
+            if len(df_uf) > 1:
+                corr = df_uf.corr().loc["Gini", "valor"]
+                corr_data.append({"UF": uf, "Correlação": corr})
+            else:
+                corr_data.append({"UF": uf, "Correlação": None})
+        
+        import pandas as pd
+        corr_df = pd.DataFrame(corr_data).set_index("UF")
+
+        plt.figure(figsize=(8, len(states) * 0.5 + 2))
+        sns.heatmap(corr_df, annot=True, cmap="coolwarm", center=0, vmin=-1, vmax=1, fmt=".2f", linewidths=0.5)
+        plt.title("Correlação entre Gini e Mortes Violentas por Estado")
+        plt.tight_layout()
         plt.show()
