@@ -29,6 +29,11 @@ Este projeto tem como objetivo explorar e analisar a relação entre o **Índice
 - Gráficos de linha mostrando a evolução do Gini e da violência ao longo dos anos por estado.
 - Mapas de calor (heatmaps) com a correlação entre desigualdade e violência.
 
+
+| Gini x Tempo por Estado | Heatmap Correlação |
+|-------------------------|--------------------|
+| ![Gini x Mv](https://github.com/user-attachments/assets/1a63bfb1-b7a2-42f8-b89c-34bd58833679) | ![correlação](https://github.com/user-attachments/assets/a4a1682e-5d42-40dc-a921-274654fdee41) |
+
 ---
 
 ## 🧠 Principais Insights
@@ -74,7 +79,6 @@ Este projeto tem como objetivo explorar e analisar a relação entre o **Índice
     </td>
   </tr>
 </table>
-
 ---
 
 <h2 id="contribute">📫 Contribuições</h2>
